@@ -1,11 +1,5 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+const Home = () => {
+  return <h1>Test App</h1>;
+};
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
-  return (
-    <h1>Test App</h1>
-
-  )
-}
+export default Home;
